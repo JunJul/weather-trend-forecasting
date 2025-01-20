@@ -1,1 +1,17 @@
 # weather-trend-forecasting
+
+## Principal Component Analysis (PCA)
+- PCA is a dimensionality reduction technique that transforms the data into a set of orthogonal components, capturing the maximum variance of the dataset.
+- By reducing dimensions, it can potentially enhance model performance by mitigating overfitting and improving computational efficiency.
+
+## Random Forest
+- Random Forest is an ensemble learning method that constructs multiple decision trees using bootstrapped subsets of the data and features.
+- Each tree votes on the outcome, and the final prediction is determined by aggregating the results, improving overall accuracy and robustness.
+
+## XGBoost (XGB)
+- XGBoost is a powerful gradient boosting method that builds an initial weak model and iteratively adds models to correct misclassified points.
+- This approach minimizes errors by giving higher weights to misclassified points in subsequent iterations, improving predictive performance.
+
+## Stacking Method
+- Stacking combines multiple models into a unified pipeline, leveraging the strengths of different algorithms.
+- The predictions from base models are used as input features to train a meta-model, enhancing the overall predictive accuracy.
